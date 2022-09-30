@@ -23,3 +23,5 @@ class MyLogger implements MyLoggerInterface{
 //Использование
 $logger->log('Log something');//По умолчанию debug
 $logger->log('Debugging','info');
+
+//Я не особо понял, что именно стоит тут прокомментрировать, но насколько я понимаю, эта задача про solid. Подстановка Лисков.
