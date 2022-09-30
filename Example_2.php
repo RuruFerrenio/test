@@ -77,3 +77,6 @@ $obj = new AreaCalculator();
 print_r($obj->calculate(Array($rect,$circle)));
 echo $obj->calculate($rect);
 echo $obj->calculate($circle);
+
+//UPD: На самом деле, я бы еще вынес метод вычисления площади в отдельный интерфейс, от которого уже имплементировал бы классы фигур. За счет этого уже смог бы 
+//через is_a() реализовать защиту от дурака, ведь в calculate() можно загнать любой объект
